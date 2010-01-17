@@ -176,9 +176,9 @@
 
 	// Draw primary text
     NSRect primaryRect = cellFrame;
-    primaryRect.origin.x = cellFrame.origin.x + cellFrame.size.height + self.padding;
+    primaryRect.origin.x = cellFrame.origin.x + self.padding;
     primaryRect.origin.y += self.padding;
-    primaryRect.size.width -= 45;
+    primaryRect.size.width -= 10;
     
     [self drawPrimaryTextWithFrame:primaryRect inView:controlView];
 
