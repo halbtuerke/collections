@@ -183,10 +183,10 @@
     [self drawPrimaryTextWithFrame:primaryRect inView:controlView];
 
     // Draw secondary text
-    primaryRect.origin.y = cellFrame.origin.y + cellFrame.size.height / 2 + 1;
-    [self drawSecondaryTextWithFrame:primaryRect inView:controlView];
+    // primaryRect.origin.y = cellFrame.origin.y + cellFrame.size.height / 2 + 1;
+    // [self drawSecondaryTextWithFrame:primaryRect inView:controlView];
     
     // Draw icon
-    [self drawMainIconWithFrame:cellFrame inView:controlView];    
+    // [self drawMainIconWithFrame:cellFrame inView:controlView];    
 }
 @end
