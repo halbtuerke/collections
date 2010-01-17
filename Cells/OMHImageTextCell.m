@@ -176,7 +176,7 @@
 
 	// Draw primary text
     NSRect primaryRect = cellFrame;
-    primaryRect.origin.x = cellFrame.origin.x + self.padding;
+    primaryRect.origin.x = cellFrame.origin.x + 5.00 + self.padding;
     primaryRect.origin.y += self.padding;
     primaryRect.size.width -= 10;
     
